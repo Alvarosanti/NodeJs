@@ -13,8 +13,7 @@ const empleados = [
 }
 ];
 
-const salario = 
-[
+const salario = [
 {
     id:1,
     salario:1000

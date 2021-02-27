@@ -1,7 +1,7 @@
 const deadpool = {
     nombre:'wade',
     apellido:'winston',
-    poder:'generacion',
+    poder:'regeneracion',
     getNombre(){
         return `${this.nombre} ${this.apellido} ${this.poder}`
     }
@@ -9,14 +9,14 @@ const deadpool = {
 // console.log(deadpool.getNombre());
 
 const {nombre,apellido,poder} = deadpool;
-// console.log(nombre,apellido,poder);
+console.log(nombre,apellido,poder);
 
 function imprimeHeroe({nombre,apellido,poder}){
-    console.log(nombre,apellido,poder);
+    // console.log(nombre,apellido,poder);
 }
-// imprimeHeroe(deadpool);
+imprimeHeroe(deadpool);
 
-const heores = ['deadpool','superman','batman'];
+const heroes = ['deadpool','superman','batman'];
 // const h1 = heores[0];
-const [h1,h2 ,h3 ] = heores;
-console.log( h3)
+const [h1,h2,h3] = heroes;
+console.log(h3)
